@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react'
 import { View, Text} from 'react-native'
 
-
+//Тут я бы реализовал shouldComponentUpdate на проверку по значению и реализовал анимацию при перерендере.
+//Но времени нет уже
 export default class ItemComponent extends PureComponent {
     render() {
         const { item } = this.props
